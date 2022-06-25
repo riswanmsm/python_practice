@@ -6,7 +6,7 @@ def odd_even_counter():
     # loop and take number until user enters 0
     while number:
         
-        if number % 2 != 0:
+        if number % 2:
             # if the number is odd increase odd counter by one
             odd_counter += 1
         else:
