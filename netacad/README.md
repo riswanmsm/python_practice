@@ -1,0 +1,1 @@
+variables that are able to store exactly one given value at a time are sometimes called scalars by analogy with mathematics.

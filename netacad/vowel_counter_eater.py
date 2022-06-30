@@ -4,7 +4,7 @@ user_word = input('Enter a word in which you want to remove vowels: ')
 count = 0
 for letter in user_word:
     # Complete the body of the for loop.
-    if letter in 'aeiou':
+    if letter.upper() in 'AEIOU':
         count += 1
         continue
     print(letter)
